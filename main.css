@@ -1,0 +1,172 @@
+<style>
+      * {
+        padding: 0;
+      }
+      body {
+        background-color: gray;
+        flex-direction: column;
+      }
+
+      @media screen and (max-width: 500px) {
+
+        * {
+        padding: 0;
+      }
+        body {
+        background-color: gray;
+        flex-direction: column;
+      }
+
+
+        .tab_grid {
+       width: 715px;
+        height: 480px;
+        border: 5px solid white;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 1px;
+        margin: auto;
+        background-color: whitesmoke;
+        box-shadow: 0px 0px 20px white;
+      }
+      .bts {
+        height: 158px;
+        width: 238px;
+        flex-direction: column;
+        /* border:2px solid black; */
+      }
+
+      #launch {
+        width: 190px;
+        height: 40px;
+        margin: auto;
+        margin-top: 20px;
+        border: 2px solid lightgrey;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 10px;
+        color: black;
+        background-color: goldenrod;
+        box-shadow: 0px 0px 230px lightgray;
+        /* text-shadow: 0px 0px 10px black; */
+        cursor: pointer;
+        font-family: Arial;
+        font-size: 25px;
+      }
+
+      #moves {
+        width: 240px;
+        height: 40px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 10px;
+        color: black;
+        background-color: goldenrod;
+        box-shadow: 0px 0px 20px lightgray;
+        /* text-shadow: 0px 0px 5px black; */
+        cursor: pointer;
+        font-family: Arial;
+        font-size: 25px;
+      }
+
+      .empty {
+        background-color: #dad4ef;
+        border: 2px solid whitesmoke;
+      }
+       
+      }
+
+      .tab_grid {
+        width: 715px;
+        height: 480px;
+        border: 5px solid white;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 1px;
+        margin: auto;
+        background-color: whitesmoke;
+        box-shadow: 0px 0px 20px white;
+      }
+
+      .bts {
+        height: 158px;
+        width: 238px;
+        flex-direction: column;
+        /* border:2px solid black; */
+      }
+
+      #launch {
+        width: 190px;
+        height: 40px;
+        margin: auto;
+        margin-top: 20px;
+        border: 2px solid lightgrey;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 10px;
+        color: black;
+        background-color: goldenrod;
+        box-shadow: 0px 0px 230px lightgray;
+        /* text-shadow: 0px 0px 10px black; */
+        cursor: pointer;
+        font-family: Arial;
+        font-size: 25px;
+      }
+
+      #launch:hover {
+        color: whitesmoke;
+        text-shadow: 0px 0px whitesmoke;
+      }
+
+      #moves {
+        width: 240px;
+        height: 40px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 10px;
+        color: black;
+        background-color: goldenrod;
+        box-shadow: 0px 0px 20px lightgray;
+        /* text-shadow: 0px 0px 5px black; */
+        cursor: pointer;
+        font-family: Arial;
+        font-size: 25px;
+      }
+
+      .h {
+        color: wheat;
+        text-align: center;
+        /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+        font-family: "Courier New", Courier, monospace;
+      }
+      .empty {
+        background-color: #dad4ef;
+        border: 2px solid whitesmoke;
+      }
+
+      .hold {
+        border: solid white;
+      }
+
+      .invisible {
+        display: none;
+      }
+
+      .drag-over {
+        border: dashed 5px green;
+      }
+      .bring {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
