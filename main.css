@@ -1,4 +1,4 @@
-<style>
+
       * {
         padding: 0;
       }
@@ -15,12 +15,18 @@
         body {
         background-color: gray;
         flex-direction: column;
+        padding: 10px;
+      }
+
+      .res{
+        display: flex;
+        justify-content: center;
       }
 
 
         .tab_grid {
-       width: 715px;
-        height: 480px;
+       width: 515px;
+        height: 280px;
         border: 5px solid white;
         border-radius: 5px;
         display: grid;
@@ -169,4 +175,5 @@
         display: flex;
         justify-content: center;
       }
-    </style>
+      
+  
